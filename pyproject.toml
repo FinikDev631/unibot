@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unibot"
+version = "0.1.0"
+description = "A provider-agnostic Python SDK for Telegram-compatible Bot APIs."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "FinikDev631" }]
+keywords = ["telegram", "bot", "sdk", "catugram", "staticgram", "api"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/FinikDev631/unibot"
+Repository = "https://github.com/FinikDev631/unibot"
+
+[tool.setuptools.packages.find]
+include = ["unibot*"]
